@@ -1,1 +1,72 @@
-/*******Home Page*******/
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLING */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a; /* Dark background like your screenshot */
+    color: white;
+    padding: 10px 5%;
+}
+
+/* Left side: logo and title */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Right side: navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #CC0000;
+}
+
+/* Section styling */
+section {
+    padding: 20px 5%;
+    text-align: left;
+    width: 600px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.club-photo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
